@@ -1,0 +1,64 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug 🐞]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        
+  - type: markdown
+    attributes:
+      value: |        
+         ### Please make sure to search for similar issues first.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Give us detailed info about the issue
+      placeholder: Tell us in detail what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: what did you expect to happen?
+      placeholder: Tell us in detail what did you expect to see!
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: ZOS
+    attributes:
+      label: ZOS info
+      description: Are you using ZOS? give us more information about it.
+      placeholder: ZOS related info
+  - type: textarea
+    id: dashboard
+    attributes:
+      label: Dashboard info
+      description: Are you using Dashboard? give us more information about it.
+      placeholder: Dashboard URL, and related info
+  - type: textarea
+    id: weblets
+    attributes:
+      label: weblets info
+      description: Are you using Weblets? give us more information about it.
+      placeholder: weblets URL, and related info
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
