@@ -11,9 +11,10 @@ assignees: ""
 Search for similar issues first, if not complete the following template
 
 ## Description
+### Details 
 
-### Software versions 
- - What type and version of our software are you running?
+A clear description of the bug
+
 ### ZOS info
  - if you are using zos, give us the related information 
 ### Dashboard info
@@ -22,9 +23,6 @@ Search for similar issues first, if not complete the following template
  - Weblets related info, URL or if you are run it locally
 ### Browser info
  -  What browsers are you seeing the problem on
-### Details 
-
-A clear description of the bug
 
 ### Steps to reproduce
 
